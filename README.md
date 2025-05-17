@@ -58,12 +58,15 @@ Third party program Licenses can be found here: [third-party-programs.txt](https
 Each module folder has a Jupyter Notebook file (`*.ipynb`), this can be opened in Jupyter Lab to view the training contant, edit code and compile/run. Along with the Notebook file, there is a `lab` and a `src` folder with SYCL source code for samples used in the Notebook. The module folder also has `run_*.sh` files which can be used in shell terminal to compile and run each sample code.
 
 
-#### Access using Intel DevCloud
+#### Access using Intel Tiber AI Cloud
 
-The Jupyter notebooks are tested and can be run on Intel Developer Cloud without any installation necessary, below are the steps to access these Jupyter notebooks on Intel Developer Cloud:
-1. Register on [Intel DevCloud](https://devcloud.intel.com/oneapi)
+The Jupyter notebooks are tested and can be run on Intel Developer Cloud without any installation necessary, below are the steps to access these Jupyter notebooks on Intel Tiber AI Cloud:
+1. Register on [Intel Tiber AI Cloud](https://ai.cloud.intel.com/)
 2. Login, Get Started and Launch Jupyter Lab
 3. Open Terminal in Jupyter Lab and git clone the repo and access the Notebooks
+
+======
+**The following is for local installation, which is not recommended for new users**
 
 #### Local Installation of oneAPI Tools and JupyterLab
 
